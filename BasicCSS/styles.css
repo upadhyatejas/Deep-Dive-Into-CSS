@@ -6,14 +6,28 @@
     text-decoration: underline;
     text-transform: capitalize;
     border: 4px solid purple;
+    text-align: center;
 }
 
 #content{
 
     color: brown;
+    font-family: monospace;
     font-size: 15px;
     font-weight: bold;
     text-transform: capitalize;
     border:  3px dashed purple;
     padding: 2px;
+    text-align:center;
+}
+
+ol{ 
+    list-style-type: upper-latin;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    color: grey;
 }
