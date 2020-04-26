@@ -32,6 +32,10 @@
     padding: 2px;
     text-align:center;
 }
+/* here h2 styling for the tag gets overidden by class stylings for that particualr tag */
+h2{
+    color:grey;
+}
 
 ol{ 
     list-style-type: upper-latin;
