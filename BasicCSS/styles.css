@@ -1,1 +1,19 @@
+#header1{
+    color: green;
+    font-family: helvetica;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    border: 4px solid purple;
+}
 
+#content{
+
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border:  3px dashed purple;
+    padding: 2px;
+}
