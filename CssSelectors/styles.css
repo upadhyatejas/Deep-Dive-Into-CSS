@@ -1,0 +1,13 @@
+h1.main-brand-5 {
+    color:red;
+}
+
+/* the class below has the most specificity and will be applied */
+.main-brand-5.title-5 {
+    color: orange;
+
+}
+
+.main-brand-5 {
+    color: green;
+}
