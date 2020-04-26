@@ -9,9 +9,21 @@
     text-align: center;
 }
 
-#content{
+.content{
 
     color: brown;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border:  3px dashed purple;
+    padding: 2px;
+    text-align:center;
+}
+
+/* the styling below overrides the styling above as it comes latter */
+.content1{
+    color: green;
     font-family: monospace;
     font-size: 15px;
     font-weight: bold;
@@ -28,6 +40,3 @@ ol{
     margin-right: auto;
 }
 
-li{
-    color: grey;
-}
