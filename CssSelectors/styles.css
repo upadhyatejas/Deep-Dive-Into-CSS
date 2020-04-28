@@ -5,9 +5,26 @@ h1.main-brand-5 {
 /* the class below has the most specificity and will be applied */
 .main-brand-5.title-5 {
     color: orange;
+    text-align: center;
 
 }
 
 .main-brand-5 {
     color: green;
+}
+
+.title-2 {
+    font: monospace;
+    color: royalblue;
+    font-weight: normal;
+    text-align: center;
+}
+
+/* the hover option added after class selector which changes styling of an element when mouse pointer is hovered over it */
+.title-2:hover {
+    font:monospace;
+    color: blue;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
 }
